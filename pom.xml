@@ -7,24 +7,31 @@
     <groupId>groupId</groupId>
     <artifactId>spring-data-jpa-helper</artifactId>
     <version>1.0.0</version>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source>
-                    <target>8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
     <packaging>jar</packaging>
 
     <name>spring-data-jpa-helper</name>
     <description>Consists of helper utilities for the spring data jpa api.</description>
+    <url>https://github.com/hobbstech/spring-data-jpa-helper</url>
 
-    <url>http://projects.spring.io/spring-boot/</url>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/hobbstech/spring-data-jpa-helper.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Wilson Chiviti</name>
+            <email>wilsonchiviti@gmail.com.com</email>
+            <organization>Hobbs Tech</organization>
+        </developer>
+    </developers>
 
     <properties>
         <spring-boot-starter-data-jpa.version>2.0.3.RELEASE</spring-boot-starter-data-jpa.version>
@@ -44,5 +51,18 @@
         </dependency>
     </dependencies>
 
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
