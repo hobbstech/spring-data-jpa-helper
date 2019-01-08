@@ -1,4 +1,4 @@
-package tech.hobbs.springdatajpahelper.repository;
+package io.github.hobbstech.springdatajpahelper.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;

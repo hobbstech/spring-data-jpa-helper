@@ -1,4 +1,4 @@
-package tech.hobbs.springdatajpahelper.specification;
+package io.github.hobbstech.springdatajpahelper.specification;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.jpa.domain.Specification;
