@@ -4,7 +4,7 @@
 
     <groupId>groupId</groupId>
     <artifactId>spring-data-jpa-helper</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>spring-data-jpa-helper</name>
@@ -23,7 +23,8 @@
         <connection>scm:git:git://github.com:hobbstech/spring-data-jpa-helper.git</connection>
         <developerConnection>scm:git:git@github.com:hobbstech/spring-data-jpa-helper.git</developerConnection>
         <url>https://github.com/hobbstech/spring-data-jpa-helper.git</url>
-    </scm>
+      <tag>HEAD</tag>
+  </scm>
 
     <developers>
         <developer>
