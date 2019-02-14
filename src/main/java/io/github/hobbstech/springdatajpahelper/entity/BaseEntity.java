@@ -5,11 +5,12 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
 
 @MappedSuperclass
 @Data
-public class BaseEntity {
+public class BaseEntity implements Serializable {
 
     @Temporal(TemporalType.TIMESTAMP)
     @Column
