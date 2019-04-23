@@ -2,6 +2,8 @@ package io.github.hobbstech.springdatajpahelper.specification;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author wilson
  * @version 1.0.0
@@ -10,7 +12,7 @@ import lombok.Data;
  * @since 1.0.0
  */
 @Data
-class SearchCriteria {
+class SearchCriteria implements Serializable {
 
     /**
      * <p>The first level property name of the entity class that we are searching with</p>
