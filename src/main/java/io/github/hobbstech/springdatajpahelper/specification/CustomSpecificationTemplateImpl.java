@@ -29,7 +29,7 @@ public class CustomSpecificationTemplateImpl<T> implements Specification<T> {
      *                basing the the operation that is set in the search criteria</p>
      */
     @Override
-    @SuppressWarnings("unchecked")
+    //@SuppressWarnings("unchecked")
     public Predicate toPredicate(Root<T> root, CriteriaQuery<?> query, CriteriaBuilder builder) {
 
         val keys = searchCriteria.getKey().split(".");
